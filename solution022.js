@@ -15,3 +15,4 @@ function getCount(str) {
     vowelCount = str.match(/[a,e,i,o,u]/g)
     return vowelCount ? vowelCount.length : 0
   }
+  
